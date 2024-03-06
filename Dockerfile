@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/IGainV/Shuplle.git
+RUN git clone https://github.com/IGainV/Funding
 
-WORKDIR /Shuplle
+WORKDIR /Funding
 
 RUN npm install
 
