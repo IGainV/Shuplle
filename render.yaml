@@ -1,6 +1,6 @@
 
 services:
   - type: web
-    name: Shuplle
+    name: Funding
     env: docker
     plan: free
